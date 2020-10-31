@@ -10,5 +10,5 @@ Copy the file in the colors directory to `.vimrc/colors` or `~/.config/nvim/colo
 
 ```vimscript
 set termguicolors
-set colorscheme cyberpunk
+colorscheme cyberpunk
 ```
