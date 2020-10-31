@@ -1,6 +1,6 @@
 # Punchy Cyberpunk theme for Vim
 
-![cyberpunk](preview-cyberpunk.png)
+![cyberpunk](cyberpunk-preview.png)
 
 Inspiration: https://github.com/prometheux-ar/cyberpunk
 
