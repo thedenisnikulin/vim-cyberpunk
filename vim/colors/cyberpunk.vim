@@ -75,9 +75,9 @@ call HighlightFor("Typedef",   "#00FF9C", "NONE", "NONE")
 
 call HighlightFor("Underlined", "NONE",    "NONE",    "NONE")
 call HighlightFor("Todo",       "#00FF9C", "#372963", "italic")
-call HighlightFor("Error",      "#ff3270", "#NONE",   "undercurl")
-call HighlightFor("WarningMsg", "#009550", "#NONE",   "NONE")
-call HighlightFor("Special",    "#00FF9C", "#NONE",   "italic")
+call HighlightFor("Error",      "#ff3270", "NONE",   "undercurl")
+call HighlightFor("WarningMsg", "#009550", "NONE",   "NONE")
+call HighlightFor("Special",    "#00FF9C", "NONE",   "italic")
 call HighlightFor("Tag",        "#00FF9C", "NONE",    "undercurl")
 " }}}
 
@@ -90,7 +90,7 @@ call HighlightFor("PmenuThumb", "NONE",    "NONE",    "NONE")
 
 " Status line {{{
 call HighlightFor("StatusLine",   "#ff0055", "#1d000a", "bold")
-call HighlightFor("StatusLineNC", "#ff0055", "#1d000a", "NONE")
+call HighlightFor("StatusLineNC", "#ff0055", "#000000", "NONE")
 " }}}
 
 " Tab pages {{{
