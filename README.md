@@ -1,6 +1,6 @@
 # Punchy Cyberpunk Theme
 
-![cyberpunk](cyberpunk.png)
+![cyberpunk](assets/cyberpunk.png)
 
 Inspiration: https://github.com/prometheux-ar/cyberpunk
 
@@ -21,3 +21,11 @@ Copy the file in the colors directory to `.vimrc/colors` or `~/.config/nvim/colo
 set termguicolors
 colorscheme cyberpunk
 ```
+
+## Screenshots
+
+### emacs
+
+![cyberpunk](assets/cyberpunk-emacs.png)
+
+
