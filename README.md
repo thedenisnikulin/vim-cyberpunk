@@ -4,7 +4,9 @@
 
 Inspiration: https://github.com/prometheux-ar/cyberpunk
 
-## emacs
+## Installation
+
+### emacs
 
 Copy `emacs/cyberpunk-theme.el` to a directory listed in `custom-theme-load-path`
 (by default it is `~/.emacs.d`) and put this in your `init.el`
@@ -13,7 +15,7 @@ Copy `emacs/cyberpunk-theme.el` to a directory listed in `custom-theme-load-path
 (load-theme 'cyberpunk t)
 ```
 
-## Vim
+### Vim
 
 Copy the file in the colors directory to `.vimrc/colors` or `~/.config/nvim/colors`.
 
@@ -27,5 +29,3 @@ colorscheme cyberpunk
 ### emacs
 
 ![cyberpunk](assets/cyberpunk-emacs.png)
-
-
