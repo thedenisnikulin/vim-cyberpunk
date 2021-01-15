@@ -2,7 +2,7 @@
 
 ## Installation
 
-Copy a file from `colorscheme` folder to `.vim/colors/` or `~/.config/nvim/colors`, then copy a corresponding file to your `vim-airline-themes` folder (e.g. `.config/nvim/plugged/vim-airline-themes/autoload/airline/themes/`), and add these lines to your `.vimrc` (or `init.vim`):
+Copy files from `colorscheme` folder to `.vim/colors/` or `~/.config/nvim/colors`, then copy the corresponding files to your `vim-airline-themes` folder (e.g. `.config/nvim/plugged/vim-airline-themes/autoload/airline/themes/`), and add these lines to your `.vimrc` (or `init.vim`):
 
 For Cyberpunk theme:
 
@@ -18,3 +18,5 @@ For Silverhand theme, change `cyberpunk` in the above lines to `silverhand`.
 
 ![cyberpunk](./screenshots/cyberpunk.png)
 ![silverhand](./screenshots/silverhand.png)
+
+Inspired by https://github.com/aloussase/cyberpunk
