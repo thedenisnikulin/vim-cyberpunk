@@ -1,29 +1,16 @@
-# Punchy Cyberpunk Theme
-
-Inspiration: https://github.com/prometheux-ar/cyberpunk
+# Vim Cyberpunk Theme: 2 variations
 
 ## Installation
 
-### Vim
-
-Copy the file in the colors directory to `.vim/colors` or
-`~/.config/nvim/colors` and add this to your `.vimrc`
+Copy a file from `colorscheme` folder to `.vim/colors/` or `~/.config/nvim/colors`, then copy a corresponding file to your `vim-airline-themes` folder (e.g. `.config/nvim/plugged/vim-airline-themes/autoload/airline/themes/`), and add these lines to your `.vimrc` (or `init.vim`):
 
 ```vimscript
 set termguicolors
 colorscheme cyberpunk
-```
-
-### emacs
-
-Copy `emacs/cyberpunk-theme.el` to a directory listed in `custom-theme-load-path`
-(by default it is `~/.emacs.d`) and put this in your `init.el`
-
-```
-(load-theme 'cyberpunk t)
+let g:airline_theme= 'cyberpunk'
 ```
 
 ## Screenshots
 
-![vim](./screenshots/cyberpunk.png)
-![emacs](./screenshots/cyberpunk-emacs.png)
+![cyberpunk](./screenshots/cyberpunk.png)
+![silverhand](./screenshots/silverhand.png)
