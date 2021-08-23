@@ -5,14 +5,14 @@
 " =============================================================================
 
 " PALETTE
-let s:yellow = { "cterm": 228, "gui": "#EDF37E" }
+let s:yellow = { "cterm": 228, "gui": "#FF0055" }
 let s:purple = { "cterm": 141, "gui": "#5E81F5" }
 let s:light_green = { "cterm": 148, "gui": "#00FFC8" }
 let s:light_blue = { "cterm": 81, "gui": "#62D8F1" }
 let s:magenta = { "cterm": 197, "gui": "#00FFC8" }
 let s:orange = { "cterm": 208, "gui": "#eea806" }
 
-let s:light_grey = { "cterm": 250, "gui": "#EDF37E" }
+let s:light_grey = { "cterm": 250, "gui": "#FF0055" }
 let s:grey = { "cterm": 245, "gui": "#000000" }
 let s:dark_grey = { "cterm": 59, "gui": "#101116" }
 let s:darkest_grey = { "cterm": 238, "gui": "#000000" }
@@ -133,10 +133,10 @@ let s:palette.inactive.middle = [
 
 
 " TABS
-let s:palette.tabline.left = [ [ '#EDF37E', '#101116', 252, 242 ] ]
-let s:palette.tabline.tabsel = [ [ '#101116', '#EDF37E', 253, 233 ] ]
+let s:palette.tabline.left = [ [ '#FF0055', '#101116', 252, 242 ] ]
+let s:palette.tabline.tabsel = [ [ '#101116', '#FF0055', 253, 233 ] ]
 let s:palette.tabline.middle = [ [ '#8a8a8a', '#101116', 245, 237 ] ]
-let s:palette.tabline.right = [ [ '#EDF37E', '#000000', 252, 242 ] ]
+let s:palette.tabline.right = [ [ '#FF0055', '#000000', 252, 242 ] ]
 
 let s:palette.normal.error = [ [ '#d0d0d0', '#ff0000', 252, 196 ] ]
 let s:palette.normal.warning = [ [ '#262626', '#ffff00', 235, 226 ] ]
@@ -144,4 +144,4 @@ let s:palette.normal.warning = [ [ '#262626', '#ffff00', 235, 226 ] ]
 " -----------------------------------------------------------------------------
 
 
-let g:lightline#colorscheme#silverhand#palette = s:palette
+let g:lightline#colorscheme#cyberpunk#palette = s:palette

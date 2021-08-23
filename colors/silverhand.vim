@@ -1,4 +1,5 @@
 highlight clear
+
 if exists("syntax_on")
   syntax reset
 endif
@@ -41,10 +42,15 @@ call HighlightFor("Title",     "#c592ff", "NONE", "NONE")
 
 " Cursor {{{
 call HighlightFor("Cursor",       "#00FFC8", "NONE",    "NONE")
-"call HighlightFor("CursorLine",   "#0a0d04", "#5E81F5", "NONE") " bold #0a0d04
-call HighlightFor("CursorLine",   "NONE", "#000000", "NONE") " #0a0d04
-"call HighlightFor("CursorLineNr", "#000000", "#00FFC8", "NONE")
-call HighlightFor("CursorLineNr","#eea806", "NONE", "NONE")
+call HighlightFor("CursorLineNr", "#000000", "#00FFC8", "NONE")
+
+" Cursorline type
+if exists("g:cyberpunk_cursorline") && g:cyberpunk_cursorline == "black"
+  call HighlightFor("CursorLine",   "NONE", "#000000", "NONE")
+else
+  call HighlightFor("CursorLine",   "#0a0d04", "#5E81F5", "NONE")
+endif
+
 call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
 " }}}
 
