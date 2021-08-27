@@ -1,4 +1,5 @@
 highlight clear
+
 if exists("syntax_on")
   syntax reset
 endif
@@ -41,14 +42,21 @@ call HighlightFor("Title",     "#c592ff", "NONE", "NONE")
 
 " Cursor {{{
 call HighlightFor("Cursor",       "#00FFC8", "NONE",    "NONE")
-call HighlightFor("CursorLine",   "#0a0d04", "#5E81F5", "bold")
-call HighlightFor("CursorLineNr", "#00FFC8", "#00FFC8", "NONE")
+call HighlightFor("CursorLineNr", "#000000", "#00FFC8", "NONE")
+
+" Cursorline type
+if exists("g:cyberpunk_cursorline") && g:cyberpunk_cursorline == "black"
+  call HighlightFor("CursorLine",   "NONE", "#000000", "NONE")
+else
+  call HighlightFor("CursorLine",   "#0a0d04", "#5E81F5", "NONE")
+endif
+
 call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
 " }}}
 
 " Code {{{
 " The following groups are not builtin but are defined commonly in syntax files
-call HighlightFor("Comment",   "#6766b3", "NONE", "italic")
+call HighlightFor("Comment",   "#6766b3", "NONE", "NONE")
 call HighlightFor("String",    "#5E81F5", "NONE", "NONE")
 call HighlightFor("Number",    "#fffc58",  "NONE", "NONE")
 call HighlightFor("Float",     "#fffc58",  "NONE", "NONE")
@@ -89,8 +97,8 @@ call HighlightFor("PmenuThumb", "NONE",    "NONE",    "NONE")
 " }}}
 
 " Status line {{{
-call HighlightFor("StatusLine",   "#ff0055", "#1d000a", "bold")
-call HighlightFor("StatusLineNC", "#ff0055", "#000000", "NONE")
+call HighlightFor("StatusLine",   "#EDF37E", "#1d000a", "bold")
+call HighlightFor("StatusLineNC", "#EDF37E", "#000000", "NONE")
 " }}}
 
 " Tab pages {{{
