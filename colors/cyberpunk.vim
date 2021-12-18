@@ -59,27 +59,27 @@ call HighlightFor("CursorColumn", "NONE",    "NONE",    "NONE")
 call HighlightFor("Comment",   "#6766b3", "NONE", "NONE")
 call HighlightFor("String",    "#76C1FF", "NONE", "NONE")
 call HighlightFor("Number",    "#fffc58",  "NONE", "NONE")
-call HighlightFor("Float",     "#fffc58",  "NONE", "NONE")
-call HighlightFor("Boolean",   "#fffc58",  "NONE", "NONE")
-call HighlightFor("Character", "#fffc58",  "NONE", "NONE")
+hi! link Float Number
+hi! link Boolean Number
+hi! link Character Number
 
 call HighlightFor("Conditional",  "#76C1FF", "NONE", "NONE")
-call HighlightFor("Repeat",       "#76C1FF", "NONE", "NONE")
-call HighlightFor("Label",        "#76C1FF", "NONE", "NONE")
-call HighlightFor("Exception",    "#76C1FF", "NONE", "NONE")
-call HighlightFor("Operator",     "#76C1FF", "NONE", "NONE")
-call HighlightFor("Keyword",      "#76C1FF", "NONE", "NONE")
-call HighlightFor("StorageClass", "#d57bff", "NONE", "NONE")
-call HighlightFor("Statement",    "#76C1FF", "NONE", "NONE")
+hi! link Repeat Conditional
+hi! link Label Conditional
+hi! link Exception Conditional
+hi! link Operator Conditional
+hi! link Keyword Conditional
+hi! link StorageClass Conditional
+hi! link Statement Conditional
 
 call HighlightFor("Function",   "#d57bff", "NONE", "NONE")
 call HighlightFor("Identifier", "#EEFFFF", "NONE", "NONE")
 
-call HighlightFor("PreProc", "#00FF9C", "NONE", "NONE")
-
 call HighlightFor("Type",      "#00FF9C", "NONE", "NONE")
-call HighlightFor("Structure", "#00FF9C", "NONE", "NONE")
-call HighlightFor("Typedef",   "#00FF9C", "NONE", "NONE")
+hi! link StorageClass Type
+hi! link Structure Type
+hi! link Typedef Type
+hi! link PreProc Type
 
 call HighlightFor("Underlined", "NONE",    "NONE",    "NONE")
 call HighlightFor("Todo",       "#00FF9C", "#372963", "italic")
